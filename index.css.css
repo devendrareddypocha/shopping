@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,400;1,500&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	background-color:coral;
+	
+}
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+.menu{
+	width:100%;
+	height:80px;
+	color: white;
+	border-bottom-style:solid;
+	border-bottom-width:12px;
+	border-bottom-color:orange;
+}
+.leftside{
+	width:25% ;
+	float: left;
+	text-align:center;
+	padding-top:7px;	
+}
+.rightside{
+	margin-top:25px;
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+	text-transform: uppercase;
+	text-shadow:2px 5px 3px red;
+}
+.rightside span{
+	color:black;
+}
+.c{
+ 	border-top:2px solid pink;
+}
+.content{
+	width: 50%;
+	height:200px;
+	margin-top:100px;
+	margin-left:400px;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	border-width:10px 5px 10px 5px;
+	border-color:chocolate;
+	border-style:solid;
+	border-top-right-radius:10px;
+	border-top-left-radius:25px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:10px;
+	box-shadow:10px 10px 15px 3px rgb(225,110,19),-10px 10px 15px 3px rgb(225,110,19);
+}
+.content h4{
+	margin-top:50px;
+	font-size:20px;
+}
+.main{
+ 	margin-top:20px;
+}
+.content button1{
+	margin-top:15px;
+	background-color:transparent;
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:bold;
+	border:2px solid blue;
+	line-height:40px;
+	border:2px solid blue;
+	width:100px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+.content button2{
+	background-color:transparent;
+	border:none;
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:40px;
+	border:3px solid blue;
+	border-radius:8px;
+	width:400px;
+}
+.s{
+	text-align:center;
+	color:black;
+	font-size:14px;
+	margin-top:20px;
+}
+.s a{
+	text-transform:lowercase;
+}
+.note{
+	margin-left:460px;
+	margin-top:50px;
+	font-size:14px;
+	letter-spacing:0.5px;
+	color:black;
+}
+.note i{
+	font-size:18px;
+	letter-spacing:0.5px;
+	color:red;
+	font-weight:bold;
+}
+.footer{
+	font-size:12px;
+	line-height:30px;
+	margin-top:200px;
+	text-align:center;
+}
+.footer span{
+	color:blue;
+}

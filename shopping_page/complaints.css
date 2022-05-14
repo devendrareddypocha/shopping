@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,400;1,500&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	
+}
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+*{
+	/*....background-image:url("images/background_image2.jpg");
+	background-attachment:fixed;....*/
+	background-color:coral;
+
+}
+.menu{
+	width:100%;
+	height:100px;
+	color: white;
+	border-bottom-style:solid;
+	border-bottom-width:10px;
+	border-bottom-color:orange;
+	align-items: center;
+}
+.leftside{
+	width:25% ;
+	float: left;
+	text-align:center;
+	padding-top:20px;
+	
+}
+.rightside{
+	width: 75%;
+	line-height: 80px;
+	float: right;
+}
+.rightside ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 100px;
+	text-transform: uppercase;
+}
+.rightside ul li:hover{
+	color: red;
+}
+.content h4{
+	margin-top: 40px;
+	font-weight: bold;
+}
+.content span{
+	color: green;
+	font-weight: bold;
+}
+.content h3{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size:45px;	
+	text-shadow:2px 5px 3px red;
+}
+.contact-section{
+	width: 99.4%;
+	height: 600px;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	border-width:2px 5px 2px 5px;
+	border-color:pink;
+	border-style:solid;
+}
+.contact-container{
+	line-height: 2.5;
+	padding: 40px;
+}
+.contact-container h1{
+	text-decoration:underline;
+	margin-top:-30px;
+}
+.name{
+ 	font-weight:bold;
+}
+.email{
+ 	font-weight:bold;
+}
+.message{
+ 	font-weight:bold;
+}
+.btn button{
+	background-color:orange;
+	border:none;
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+	border:3px solid blue;
+	line-height:40px;
+	width:100px;
+	border-radius:10px;	
+} 
+.footer{
+	font-size:12px;
+	line-height:30px;
+	margin-top:50px;
+	margin-bottom:100px;
+	text-align:center;
+	letter-spacing:1px;
+}
+.footer span{
+	color:blue;
+}

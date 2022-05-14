@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,400;1,500&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	
+}
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+*{
+	/*.....background-image:url("images/background_image1.jpg");
+	background-attachment:fixed;
+	background-color:coral;
+        ........*/
+	background-color:coral;
+
+}
+.menu{
+	width:100%;
+	height:100px;
+	color: white;
+	border-bottom-style:solid;
+	border-bottom-width:10px;
+	border-bottom-color:orange;
+	align-items: center;
+}
+.leftside{
+	width:25% ;
+	float: left;
+	text-align:center;
+	padding-top:20px;	
+}
+.rightside{
+	width: 75%;
+	line-height: 80px;
+	float: right;
+}
+.rightside ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 100px;
+	text-transform: uppercase;
+}
+.rightside ul li:hover{
+	color: red;
+}
+.content{
+	width: 99%;
+	height: 140px;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	border-width:10px 10px 0px 10px;
+	border-color:pink;
+	border-style:solid;
+}
+.content h4{
+	margin-top: 40px;
+	font-weight: bold;
+}
+.content span{
+	color: green;
+	font-weight: bold;
+}
+.content h3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size:45px;	
+	text-shadow:2px 5px 3px red;
+}
+.contant{
+	width:99%;
+	text-align:center;
+	height:900px;
+	border-width:0px 10px 10px 10px;
+	border-color:pink;
+	border-style:solid;
+}
+.movies-container{
+	margin-top: 2px;
+}
+
+.movies-holder{
+	margin: 0px 30px;
+	display: grid;
+	grid-template-columns: repeat(6,10fr);
+	padding: 60px;
+}
+.movies-content img{
+	height: 200px;
+	margin-top: 10px;
+    	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.movies-content h3{
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+}
+.movies-content span{
+	color: #e5e5e5;
+	text-align: center;
+}
+.footer{
+	font-size:12px;
+	line-height:30px;
+	margin-top:50px;
+	text-align:center;
+	margin-bottom:100px;
+}
+.footer span{
+	color:blue;
+}

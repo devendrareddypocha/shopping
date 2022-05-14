@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,400;1,500&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	
+}
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+*{
+	/*....background-image:url("images/background_image2.jpg");
+	background-attachment:fixed;....*/
+	background-color:coral;
+
+}
+.menu{
+	width:100%;
+	height:100px;
+	color: white;
+	border-bottom-style:solid;
+	border-bottom-width:10px;
+	border-bottom-color:orange;
+	align-items: center;
+}
+.leftside{
+	width:25% ;
+	float: left;
+	text-align:center;
+	padding-top:20px;	
+}
+.rightside{
+	width: 75%;
+	line-height: 80px;
+	float: right;
+}
+.rightside ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 100px;
+	text-transform: uppercase;
+}
+.rightside ul li:hover{
+	color: red;
+}
+.one{
+	border:5px solid pink;
+	height:850px;	
+}
+.one h4{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-align:center;
+	text-transform: uppercase;
+}
+.one span{
+	color: green;
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+ 	letter-spacing:1px;
+}
+.one h3{
+	margin-top: 20px;
+	font-size:45px;	
+	font-family: 'Playfair Display', serif;
+	background:transparent;
+	font-weight:900px;
+	text-align:center;
+	text-transform: uppercase;
+	text-shadow:2px 5px 3px red;
+}
+.paragraph{
+	padding:50px;
+	letter-spacing:2px;
+}
+.paragraph h1{
+	padding-top:20px;
+	padding-bottom:10px;
+	font-size:25px;
+	font-weight:bold;
+}
+#update{
+	margin-top:30px;
+}
+.paragraph p{
+	color:black;
+	text-indent:60px;
+	line-height:20px;
+	text-align: justify;
+}
+#thick{
+	margin-top:15px;
+	font-weight:bold;
+	text-indent:50px;
+	line-height:20px;
+}
+.footer h3{
+	font-size:14px;
+	line-height:30px;
+	margin-top:10px;
+	text-align:center;
+	letter-spacing:1px;
+}
+.footer span{
+	color:blue;
+	font-weight:bolder;
+}
